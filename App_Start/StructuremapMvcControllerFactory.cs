@@ -16,12 +16,12 @@
 // --------------------------------------------------------------------------------------------------------------------
 
 using System.Web.Mvc;
-using ControllerFactory.App_Start;
-using ControllerFactory.DependencyResolution;
+using MedienKultur.ControllerFactory.App_Start;
+using MedienKultur.ControllerFactory.DependencyResolution;
 
 [assembly: WebActivator.PreApplicationStartMethod(typeof(StructuremapMvcControllerFactory), "Start")]
 
-namespace ControllerFactory.App_Start
+namespace MedienKultur.ControllerFactory.App_Start
 {
     public static class StructuremapMvcControllerFactory
     {

@@ -22,7 +22,7 @@ using System.Web.Http.Dependencies;
 using Microsoft.Practices.ServiceLocation;
 using StructureMap;
 
-namespace ControllerFactory.DependencyResolution
+namespace MedienKultur.ControllerFactory.DependencyResolution
 {
     /// <summary>
     /// The structure map dependency scope.

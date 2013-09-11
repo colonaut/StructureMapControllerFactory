@@ -18,7 +18,7 @@
 using System.Web.Http.Dependencies;
 using StructureMap;
 
-namespace ControllerFactory.DependencyResolution
+namespace MedienKultur.ControllerFactory.DependencyResolution
 {
     /// <summary>
     /// The structure map dependency resolver.

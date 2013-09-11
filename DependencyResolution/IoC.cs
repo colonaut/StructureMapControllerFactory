@@ -18,7 +18,7 @@
 
 using StructureMap;
 
-namespace ControllerFactory.DependencyResolution {
+namespace MedienKultur.ControllerFactory.DependencyResolution {
     public static class IoC {
         public static IContainer Initialize() {
             ObjectFactory.Initialize(x =>

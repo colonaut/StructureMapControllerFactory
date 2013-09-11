@@ -17,13 +17,13 @@
 
 using System.Web.Http;
 using System.Web.Mvc;
-using ControllerFactory.App_Start;
-using ControllerFactory.DependencyResolution;
+using MedienKultur.ControllerFactory.App_Start;
+using MedienKultur.ControllerFactory.DependencyResolution;
 using StructureMap;
 
 [assembly: WebActivator.PreApplicationStartMethod(typeof(StructuremapMvc), "Start")]
 
-namespace ControllerFactory.App_Start {
+namespace MedienKultur.ControllerFactory.App_Start {
     public static class StructuremapMvc {
         public static void Start() {
 			IContainer container = IoC.Initialize();

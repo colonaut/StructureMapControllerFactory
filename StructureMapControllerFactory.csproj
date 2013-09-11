@@ -7,8 +7,8 @@
     <ProjectGuid>{5582447D-5636-4A25-B37F-93AFDC10E405}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ControllerFactory</RootNamespace>
-    <AssemblyName>StructureMapControllerFactory</AssemblyName>
+    <RootNamespace>MedienKultur.ControllerFactory</RootNamespace>
+    <AssemblyName>MedienKultur.StructureMapControllerFactory</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
