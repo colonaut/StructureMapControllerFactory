@@ -4,7 +4,8 @@
 This adds a ControllerFactory to the StructureMap.MVC4 DependencySolution which lets you control the envoked controller for your StructureMap MVC4 Internet Application.
 
 The approach is an overworked iplementation of the controller factory from structure map of Arnold Zokas, which is designed for an Integration of RavenDB w/o having to derive the Mvc Controller.
-Arnold's approach of triggering RavenDB UoW is implemented in NuGet Packages relying to this one.
+Arnold's approach of triggering RavenDB UoW is implemented in NuGet Packages relying to this one, besides, it is not required, but makes it a lot easier create unit tests or specs.
+
 
 For an explanation of his approach look into his blog: http://novuscraft.com/blog/ravendb-unitofwork-and-mvc-revisited, http://web.archive.org/web/20120410052106/http://novuscraft.com/blog/ravendb-unitofwork-and-mvc-revisited
 
