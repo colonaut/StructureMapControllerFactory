@@ -19,7 +19,7 @@ using System.Web.Mvc;
 using MedienKultur.ControllerFactory.App_Start;
 using MedienKultur.ControllerFactory.DependencyResolution;
 
-[assembly: WebActivator.PreApplicationStartMethod(typeof(StructuremapMvcControllerFactory), "Start")]
+[assembly: WebActivatorEx.PreApplicationStartMethod(typeof(StructuremapMvcControllerFactory), "Start")]
 
 namespace MedienKultur.ControllerFactory.App_Start
 {
