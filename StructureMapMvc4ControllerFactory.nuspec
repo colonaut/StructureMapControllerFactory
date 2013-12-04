@@ -2,8 +2,8 @@
 <package >
   <metadata>
     <id>StructureMap.MVC4.ControllerFactory</id>
-    <version>1.0.0.0</version>
-    <title>StructureMap.MVC4.ControllerFactory</title>
+    <version>4.0.0.0</version>
+    <title>StructureMapControllerFactory (MVC4)</title>
     <authors>colonaut</authors>
     <owners>colonaut</owners>
     <!--licenseUrl>http://LICENSE_URL_HERE_OR_DELETE_THIS_LINE</licenseUrl-->

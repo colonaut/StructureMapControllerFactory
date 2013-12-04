@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>StructureMap.MVC5.ControllerFactory</id>
+    <version>5.0.0.0</version>
+    <title>StructureMapControllerFactory (MVC5)</title>
+    <authors>colonaut</authors>
+    <owners>colonaut</owners>
+    <!--licenseUrl>http://LICENSE_URL_HERE_OR_DELETE_THIS_LINE</licenseUrl-->
+    <projectUrl>https://github.com/colonaut/StructureMapControllerFactory</projectUrl>
+    <!--iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl-->
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+      This adds a ControllerFactory to the StructureMap.MVC4 DependencySolution which lets you control the invoked controller for your StructureMap MVC4 Internet Application.
+    </description>
+    <summary>
+      This adds a ControllerFactory to the StructureMap.MVC5 DependencySolution which lets you control the envoked controller for your StructureMap MVC5 Web Application.
+      The approach is an overworked iplementation of the controller factory from structure map of Arnold Zokas, which is designed for an Integration of RavenDB w/o having to derive the Mvc Controller.
+      Arnold's approach of triggering RavenDB UoW is implemented in NuGet Packages relying to this one, besides, it is not required, but makes it a lot easier create unit tests or specs.
+      For an explanation of his approach look into his blog: http://novuscraft.com/blog/ravendb-unitofwork-and-mvc-revisited, http://web.archive.org/web/20120410052106/http://novuscraft.com/blog/ravendb-unitofwork-and-mvc-revisited
+      This implementation is built on StructureMap.MVC5
+    </summary>
+    <releaseNotes>Initial release</releaseNotes>
+    <copyright>Copyright 2013</copyright>
+    <tags>StructureMap Mvc4 Mvc Controller ControllerFactory</tags>
+    <dependencies>
+    	<dependency id="StructureMap.MVC5" version="5.0.0.0" />
+    </dependencies>
+  </metadata>
+  <files>
+  	<file src="DependencyResolution\StructureMapControllerFactory.cs.pp" target="content\DependencyResolution" /> 
+  	<file src="App_Start\StructuremapMvcControllerFactory.cs.pp" target="content\App_Start" /> 
+  </files>
+</package>

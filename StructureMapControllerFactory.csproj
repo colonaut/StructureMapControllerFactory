@@ -37,9 +37,10 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="App_Start\StructuremapMvcControllerFactory.cs.pp" />
+    <None Include="StructureMapMvc5ControllerFactory.nuspec" />
     <None Include="DependencyResolution\StructureMapControllerFactory.cs.pp" />
     <None Include="packages.config" />
-    <None Include="StructureMapControllerFactory.nuspec" />
+    <None Include="StructureMapMvc4ControllerFactory.nuspec" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Microsoft.Practices.ServiceLocation">
