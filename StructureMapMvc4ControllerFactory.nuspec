@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>StructureMap.MVC4.ControllerFactory</id>
-    <version>4.0.0.0</version>
+    <version>4.0.0.1</version>
     <title>StructureMapControllerFactory (MVC4)</title>
     <authors>colonaut</authors>
     <owners>colonaut</owners>
@@ -29,7 +29,7 @@
     </dependencies>
   </metadata>
   <files>
-  	<file src="DependencyResolution\StructureMapControllerFactory.cs.pp" target="content\DependencyResolution" /> 
-  	<file src="App_Start\StructuremapMvc4ControllerFactory.cs.pp" target="content\App_Start\StructuremapMvcControllerFactory.cs" /> 
+  	<file src="DependencyResolution\_ppMvc\StructureMapControllerFactory.cs.pp" target="content\DependencyResolution" /> 
+  	<file src="App_Start\_ppMvc4\StructuremapMvcControllerFactory.cs.pp" target="content\App_Start" /> 
   </files>
 </package>

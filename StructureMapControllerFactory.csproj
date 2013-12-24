@@ -36,11 +36,11 @@
   </PropertyGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="App_Start\StructuremapMvc5ControllerFactory.cs.pp" />
-    <None Include="App_Start\StructuremapMvc4ControllerFactory.cs.pp" />
+    <None Include="App_Start\_ppMvc5\StructuremapMvcControllerFactory.cs.pp" />
+    <None Include="App_Start\_ppMvc4\StructuremapMvcControllerFactory.cs.pp" />
     <None Include="packages.config" />
     <None Include="StructureMapMvc5ControllerFactory.nuspec" />
-    <None Include="DependencyResolution\StructureMapControllerFactory.cs.pp" />
+    <None Include="DependencyResolution\_ppMvc\StructureMapControllerFactory.cs.pp" />
     <None Include="StructureMapMvc4ControllerFactory.nuspec" />
   </ItemGroup>
   <ItemGroup>
@@ -112,9 +112,6 @@
     <Compile Include="DependencyResolution\StructureMapDependencyResolver.cs" />
     <Compile Include="DependencyResolution\StructureMapDependencyScope.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
