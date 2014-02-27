@@ -21,13 +21,13 @@
 using System.Web.Http;
 using System.Web.Mvc;
 using StructureMap;
-using MedienKultur.ControllerFactory.App_Start;
+using MedienKultur.ControllerFactory;
 using MedienKultur.ControllerFactory.DependencyResolution;
 
-[assembly: WebActivatorEx.PreApplicationStartMethod(typeof(StructuremapMvc), "Start")]
+[assembly: WebActivatorEx.PreApplicationStartMethod(typeof(InitStructureMapMvc), "Start")]
 
-namespace MedienKultur.ControllerFactory.App_Start {
-    public static class StructuremapMvc {
+namespace MedienKultur.ControllerFactory {
+    public static class InitStructureMapMvc {
         public static void Start() {
 			IContainer container = IoC.Initialize();
             DependencyResolver.SetResolver(new StructureMapDependencyResolver(container));

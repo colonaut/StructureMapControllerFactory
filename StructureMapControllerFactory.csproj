@@ -36,8 +36,8 @@
   </PropertyGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="App_Start\_ppMvc5\StructuremapMvcControllerFactory.cs.pp" />
-    <None Include="App_Start\_ppMvc4\StructuremapMvcControllerFactory.cs.pp" />
+    <None Include="App_Start\_ppMvc5\InitStructureMapMvcControllerFactory.cs.pp" />
+    <None Include="App_Start\_ppMvc4\InitStructureMapMvcControllerFactory.cs.pp" />
     <None Include="packages.config" />
     <None Include="StructureMapMvc5ControllerFactory.nuspec" />
     <None Include="DependencyResolution\_ppMvc\StructureMapControllerFactory.cs.pp" />
@@ -105,8 +105,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="App_Start\StructuremapMvc.cs" />
-    <Compile Include="App_Start\StructuremapMvcControllerFactory.cs" />
+    <Compile Include="App_Start\InitStructureMapMvc.cs" />
+    <Compile Include="App_Start\InitStructureMapMvcControllerFactory.cs" />
     <Compile Include="DependencyResolution\IoC.cs" />
     <Compile Include="DependencyResolution\StructureMapControllerFactory.cs" />
     <Compile Include="DependencyResolution\StructureMapDependencyResolver.cs" />
