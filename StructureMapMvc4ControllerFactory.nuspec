@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>StructureMap.MVC4.ControllerFactory</id>
-    <version>4.0.1.0</version>
+    <version>0.0.1.0</version>
     <title>StructureMapControllerFactory (MVC4)</title>
     <authors>colonaut</authors>
     <owners>colonaut</owners>
@@ -24,12 +24,13 @@
     <copyright>Copyright 2013</copyright>
     <tags>StructureMap Mvc4 Mvc Controller ControllerFactory</tags>
     <dependencies>
-    	<dependency id="WebActivator" version="1.5.1" />
-    	<dependency id="StructureMap.MVC4" version="2.6.4.2" />
+      <!--dependency id="WebActivator" version="1.5.1" />
+    	<dependency id="StructureMap.MVC4" version="2.6.4.2" /-->
     </dependencies>
   </metadata>
   <files>
   	<file src="DependencyResolution\_ppMvc\StructureMapControllerFactory.cs.pp" target="content\DependencyResolution" /> 
-  	<file src="App_Start\_ppMvc4\InitStructureMapMvcControllerFactory.cs.pp" target="content\App_Start" /> 
+  	<file src="App_Start\_ppMvc4\InitStructureMapMvcControllerFactory.cs.pp" target="content\App_Start" />
+    <file src="Install.ps1" target="tools\Install.ps1" />
   </files>
 </package>
